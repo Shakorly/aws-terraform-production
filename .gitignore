@@ -29,3 +29,7 @@ terraform.rc
 .DS_Store
 *.swp
 *.swo
+
+# Saved plan files can contain sensitive values
+*.tfplan
+tfplan
